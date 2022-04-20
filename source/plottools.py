@@ -3,6 +3,14 @@ import matplotlib.pyplot as plt
 
 class PlotTools:
     @staticmethod
+    def set_xlim(a,b):
+        plt.xlim(a,b)
+
+    @staticmethod
+    def set_ylim(a,b):
+        plt.ylim(a,b)
+
+    @staticmethod
     def plot_segment(a, b, c='#3ea3b0'):
         ax, ay = a
         bx, by = b
